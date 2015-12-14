@@ -1,0 +1,912 @@
+Full results:
+
+darrien@DXPS12-Linux:~/Code/C++/CSIII/project2$ make
+g++ -Wall -std=c++11 card.cc deck.cc driver.cc hand.cc bot.cc -o poker
+./poker
+Player's cards: 
+2 of Hearts ❤
+3 of Spades ♠
+3 of Hearts ❤
+7 of Hearts ❤
+9 of Diamonds ♦
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 10011
+Player's new cards: 
+3 of Spades ♠
+3 of Hearts ❤
+4 of Spades ♠
+7 of Diamonds ♦
+10 of Clubs ♣
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+5 of Diamonds ♦
+6 of Diamonds ♦
+7 of Clubs ♣
+8 of Hearts ❤
+8 of Diamonds ♦
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+2 of Clubs ♣
+4 of Clubs ♣
+8 of Hearts ❤
+8 of Diamonds ♦
+9 of Hearts ❤
+
+Dealer rank: One Pair
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Player's cards: 
+5 of Clubs ♣
+6 of Hearts ❤
+6 of Spades ♠
+10 of Hearts ❤
+Jack of Spades ♠
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 10011
+Player's new cards: 
+4 of Diamonds ♦
+6 of Hearts ❤
+6 of Spades ♠
+6 of Clubs ♣
+Jack of Hearts ❤
+
+Player rank: Three of a kind
+
+____
+
+Dealer's cards: 
+2 of Diamonds ♦
+2 of Spades ♠
+5 of Hearts ❤
+Queen of Clubs ♣
+Queen of Hearts ❤
+
+Dealer rank: Two Pairs
+
+Dealer's new cards: 
+2 of Diamonds ♦
+2 of Spades ♠
+5 of Spades ♠
+Queen of Clubs ♣
+Queen of Hearts ❤
+
+Dealer rank: Two Pairs
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+4 of Clubs ♣
+6 of Hearts ❤
+10 of Hearts ❤
+Jack of Spades ♠
+King of Hearts ❤
+
+Player rank: Singles
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 111
+Player's new cards: 
+2 of Spades ♠
+5 of Spades ♠
+10 of Clubs ♣
+Jack of Spades ♠
+King of Hearts ❤
+
+Player rank: Singles
+
+____
+
+Dealer's cards: 
+2 of Clubs ♣
+2 of Diamonds ♦
+3 of Clubs ♣
+4 of Hearts ❤
+7 of Diamonds ♦
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+2 of Clubs ♣
+2 of Diamonds ♦
+8 of Clubs ♣
+10 of Spades ♠
+Ace of Hearts ❤
+
+Dealer rank: One Pair
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Player's cards: 
+Jack of Clubs ♣
+Jack of Diamonds ♦
+Queen of Diamonds ♦
+King of Hearts ❤
+King of Diamonds ♦
+
+Player rank: Two Pairs
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 001
+Player's new cards: 
+Jack of Clubs ♣
+Jack of Diamonds ♦
+Queen of Hearts ❤
+King of Hearts ❤
+King of Diamonds ♦
+
+Player rank: Two Pairs
+
+____
+
+Dealer's cards: 
+3 of Spades ♠
+5 of Clubs ♣
+Queen of Spades ♠
+Queen of Diamonds ♦
+King of Spades ♠
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+2 of Diamonds ♦
+3 of Hearts ❤
+9 of Hearts ❤
+Queen of Spades ♠
+Queen of Diamonds ♦
+
+Dealer rank: One Pair
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+5 of Spades ♠
+Jack of Diamonds ♦
+Jack of Spades ♠
+King of Hearts ❤
+Ace of Spades ♠
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 10011
+Player's new cards: 
+4 of Diamonds ♦
+4 of Clubs ♣
+Jack of Diamonds ♦
+Jack of Spades ♠
+King of Diamonds ♦
+
+Player rank: Two Pairs
+
+____
+
+Dealer's cards: 
+2 of Spades ♠
+2 of Clubs ♣
+2 of Diamonds ♦
+5 of Clubs ♣
+8 of Hearts ❤
+
+Dealer rank: Three of a kind
+
+Dealer's new cards: 
+2 of Spades ♠
+2 of Clubs ♣
+2 of Diamonds ♦
+5 of Diamonds ♦
+Jack of Hearts ❤
+
+Dealer rank: Three of a kind
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Player's cards: 
+6 of Diamonds ♦
+6 of Hearts ❤
+8 of Clubs ♣
+King of Clubs ♣
+Ace of Clubs ♣
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 00111
+Player's new cards: 
+6 of Diamonds ♦
+6 of Hearts ❤
+7 of Clubs ♣
+7 of Spades ♠
+10 of Diamonds ♦
+
+Player rank: Two Pairs
+
+____
+
+Dealer's cards: 
+2 of Diamonds ♦
+9 of Clubs ♣
+10 of Spades ♠
+10 of Clubs ♣
+Queen of Hearts ❤
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+5 of Hearts ❤
+10 of Spades ♠
+10 of Clubs ♣
+Queen of Spades ♠
+Queen of Diamonds ♦
+
+Dealer rank: Two Pairs
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+9 of Hearts ❤
+10 of Spades ♠
+Queen of Diamonds ♦
+King of Diamonds ♦
+Ace of Clubs ♣
+
+Player rank: Singles
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 00001
+Player's new cards: 
+9 of Hearts ❤
+10 of Spades ♠
+Queen of Diamonds ♦
+King of Diamonds ♦
+King of Spades ♠
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+2 of Hearts ❤
+4 of Clubs ♣
+6 of Hearts ❤
+Ace of Diamonds ♦
+Ace of Spades ♠
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+9 of Clubs ♣
+10 of Clubs ♣
+Queen of Spades ♠
+Ace of Diamonds ♦
+Ace of Spades ♠
+
+Dealer rank: One Pair
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1 
+
+Player's cards: 
+4 of Spades ♠
+7 of Clubs ♣
+7 of Spades ♠
+9 of Spades ♠
+Queen of Clubs ♣
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 10011
+Player's new cards: 
+2 of Spades ♠
+3 of Diamonds ♦
+7 of Clubs ♣
+7 of Spades ♠
+9 of Diamonds ♦
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+2 of Hearts ❤
+4 of Hearts ❤
+5 of Clubs ♣
+8 of Diamonds ♦
+8 of Hearts ❤
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+8 of Diamonds ♦
+8 of Hearts ❤
+Jack of Hearts ❤
+Jack of Diamonds ♦
+Queen of Hearts ❤
+
+Dealer rank: Two Pairs
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+3 of Spades ♠
+6 of Hearts ❤
+6 of Spades ♠
+7 of Spades ♠
+King of Clubs ♣
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 10011
+Player's new cards: 
+6 of Hearts ❤
+6 of Spades ♠
+9 of Hearts ❤
+Jack of Spades ♠
+King of Diamonds ♦
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+3 of Clubs ♣
+6 of Diamonds ♦
+7 of Clubs ♣
+King of Clubs ♣
+Ace of Diamonds ♦
+
+Dealer rank: Singles
+
+Dealer's new cards: 
+6 of Diamonds ♦
+Jack of Clubs ♣
+Queen of Clubs ♣
+King of Spades ♠
+Ace of Diamonds ♦
+
+Dealer rank: Singles
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+
+Player's cards: 
+2 of Diamonds ♦
+2 of Spades ♠
+2 of Hearts ❤
+6 of Clubs ♣
+8 of Hearts ❤
+
+Player rank: Three of a kind
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 00011
+Player's new cards: 
+2 of Diamonds ♦
+2 of Spades ♠
+2 of Hearts ❤
+3 of Hearts ❤
+8 of Diamonds ♦
+
+Player rank: Three of a kind
+
+____
+
+Dealer's cards: 
+4 of Hearts ❤
+4 of Diamonds ♦
+7 of Diamonds ♦
+8 of Clubs ♣
+10 of Spades ♠
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+4 of Hearts ❤
+4 of Diamonds ♦
+8 of Spades ♠
+9 of Diamonds ♦
+Queen of Hearts ❤
+
+Dealer rank: One Pair
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+3 of Clubs ♣
+5 of Diamonds ♦
+7 of Clubs ♣
+9 of Clubs ♣
+9 of Diamonds ♦
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 111
+Player's new cards: 
+3 of Diamonds ♦
+6 of Spades ♠
+9 of Clubs ♣
+9 of Diamonds ♦
+Queen of Diamonds ♦
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+3 of Spades ♠
+5 of Clubs ♣
+7 of Diamonds ♦
+8 of Hearts ❤
+King of Clubs ♣
+
+Dealer rank: Singles
+
+Dealer's new cards: 
+7 of Diamonds ♦
+Jack of Diamonds ♦
+Jack of Clubs ♣
+Jack of Spades ♠
+Queen of Spades ♠
+
+Dealer rank: Three of a kind
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Player's cards: 
+2 of Spades ♠
+6 of Diamonds ♦
+10 of Spades ♠
+Queen of Clubs ♣
+King of Spades ♠
+
+Player rank: Singles
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 111
+Player's new cards: 
+6 of Hearts ❤
+10 of Clubs ♣
+Queen of Clubs ♣
+King of Spades ♠
+King of Diamonds ♦
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+4 of Clubs ♣
+4 of Spades ♠
+8 of Spades ♠
+Queen of Hearts ❤
+Ace of Spades ♠
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+3 of Hearts ❤
+4 of Clubs ♣
+4 of Spades ♠
+Jack of Hearts ❤
+King of Hearts ❤
+
+Dealer rank: One Pair
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+7 of Diamonds ♦
+7 of Spades ♠
+10 of Clubs ♣
+King of Hearts ❤
+Ace of Clubs ♣
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 00111
+Player's new cards: 
+2 of Hearts ❤
+3 of Spades ♠
+7 of Diamonds ♦
+7 of Spades ♠
+9 of Spades ♠
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+4 of Diamonds ♦
+4 of Spades ♠
+9 of Diamonds ♦
+Queen of Clubs ♣
+Queen of Hearts ❤
+
+Dealer rank: Two Pairs
+
+Dealer's new cards: 
+4 of Diamonds ♦
+4 of Spades ♠
+8 of Spades ♠
+Queen of Clubs ♣
+Queen of Hearts ❤
+
+Dealer rank: Two Pairs
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1 
+Player's cards: 
+3 of Hearts ❤
+6 of Diamonds ♦
+8 of Clubs ♣
+8 of Diamonds ♦
+10 of Diamonds ♦
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 11001
+Player's new cards: 
+6 of Hearts ❤
+6 of Spades ♠
+8 of Clubs ♣
+9 of Diamonds ♦
+Queen of Spades ♠
+
+Player rank: One Pairs
+
+____
+
+Dealer's cards: 
+5 of Hearts ❤
+5 of Spades ♠
+Jack of Diamonds ♦
+Queen of Diamonds ♦
+Ace of Diamonds ♦
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+2 of Spades ♠
+5 of Hearts ❤
+5 of Spades ♠
+10 of Hearts ❤
+King of Spades ♠
+
+Dealer rank: One Pair
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+2 of Hearts ❤
+4 of Hearts ❤
+9 of Hearts ❤
+10 of Clubs ♣
+King of Hearts ❤
+
+Player rank: Singles
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 111
+Player's new cards: 
+4 of Spades ♠
+10 of Clubs ♣
+Jack of Spades ♠
+Queen of Spades ♠
+King of Hearts ❤
+
+Player rank: Singles
+
+____
+
+Dealer's cards: 
+4 of Diamonds ♦
+6 of Hearts ❤
+8 of Hearts ❤
+Queen of Hearts ❤
+Ace of Spades ♠
+
+Dealer rank: Singles
+
+Dealer's new cards: 
+4 of Diamonds ♦
+5 of Spades ♠
+6 of Clubs ♣
+8 of Clubs ♣
+Queen of Diamonds ♦
+
+Dealer rank: Singles
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+
+Player's cards: 
+3 of Hearts ❤
+4 of Hearts ❤
+Queen of Hearts ❤
+Queen of Clubs ♣
+King of Diamonds ♦
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 11001
+Player's new cards: 
+4 of Diamonds ♦
+10 of Hearts ❤
+Queen of Hearts ❤
+Queen of Clubs ♣
+Queen of Diamonds ♦
+
+Player rank: Three of a kind
+
+____
+
+Dealer's cards: 
+2 of Clubs ♣
+2 of Hearts ❤
+5 of Diamonds ♦
+8 of Spades ♠
+9 of Clubs ♣
+
+Dealer rank: One Pair
+
+Dealer's new cards: 
+2 of Clubs ♣
+2 of Hearts ❤
+2 of Diamonds ♦
+10 of Diamonds ♦
+Jack of Hearts ❤
+
+Dealer rank: Three of a kind
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+
+Player's cards: 
+3 of Clubs ♣
+3 of Hearts ❤
+6 of Diamonds ♦
+8 of Diamonds ♦
+9 of Diamonds ♦
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 00111
+Player's new cards: 
+3 of Clubs ♣
+3 of Hearts ❤
+7 of Clubs ♣
+10 of Spades ♠
+Jack of Spades ♠
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+2 of Spades ♠
+2 of Spades ♠
+6 of Spades ♠
+6 of Hearts ❤
+7 of Diamonds ♦
+
+Dealer rank: Two Pairs
+
+Dealer's new cards: 
+2 of Spades ♠
+2 of Spades ♠
+6 of Spades ♠
+6 of Hearts ❤
+7 of Hearts ❤
+
+Dealer rank: Two Pairs
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+2 of Hearts ❤
+2 of Spades ♠
+4 of Clubs ♣
+5 of Hearts ❤
+9 of Clubs ♣
+
+Player rank: One Pair
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 00111
+Player's new cards: 
+2 of Hearts ❤
+2 of Spades ♠
+5 of Spades ♠
+7 of Clubs ♣
+King of Diamonds ♦
+
+Player rank: One Pair
+
+____
+
+Dealer's cards: 
+2 of Spades ♠
+4 of Hearts ❤
+10 of Hearts ❤
+Jack of Clubs ♣
+Queen of Spades ♠
+
+Dealer rank: Singles
+
+Dealer's new cards: 
+3 of Diamonds ♦
+3 of Clubs ♣
+8 of Spades ♠
+10 of Diamonds ♦
+10 of Spades ♠
+
+Dealer rank: Two Pairs
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 1
+Player's cards: 
+3 of Hearts ❤
+4 of Diamonds ♦
+9 of Diamonds ♦
+Jack of Diamonds ♦
+King of Hearts ❤
+
+Player rank: Singles
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 111
+Player's new cards: 
+5 of Clubs ♣
+Jack of Diamonds ♦
+Queen of Clubs ♣
+King of Hearts ❤
+Ace of Hearts ❤
+
+Player rank: Singles
+
+____
+
+Dealer's cards: 
+3 of Spades ♠
+6 of Hearts ❤
+10 of Clubs ♣
+Queen of Diamonds ♦
+King of Clubs ♣
+
+Dealer rank: Singles
+
+Dealer's new cards: 
+2 of Clubs ♣
+7 of Hearts ❤
+8 of Diamonds ♦
+Queen of Diamonds ♦
+King of Spades ♠
+
+Dealer rank: Singles
+
+Player's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+>1 
+Deck low size. Adding cards, and reshuffling.
+
+Player's cards: 
+2 of Spades ♠
+2 of Hearts ❤
+6 of Diamonds ♦
+10 of Hearts ❤
+10 of Spades ♠
+
+Player rank: Two Pairs
+
+Which cards do you want to replace? 0 to keep card in slot, 1 to change.
+> 001
+Player's new cards: 
+2 of Spades ♠
+2 of Hearts ❤
+5 of Spades ♠
+10 of Hearts ❤
+10 of Spades ♠
+
+Player rank: Two Pairs
+
+____
+
+Dealer's cards: 
+3 of Diamonds ♦
+7 of Spades ♠
+8 of Clubs ♣
+8 of Diamonds ♦
+8 of Hearts ❤
+
+Dealer rank: Three of a kind
+
+Dealer's new cards: 
+6 of Clubs ♣
+8 of Clubs ♣
+8 of Diamonds ♦
+8 of Hearts ❤
+8 of Spades ♠
+
+Dealer rank: Four of a Kind
+
+Dealer's hand is better.
+
+Want to play another round? 1 = yes, 0 = no
+> 0
+darrien@DXPS12-Linux:~/Code/C++/CSIII/project2$ 
+
+
