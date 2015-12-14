@@ -9,6 +9,4 @@ all: driver.cc
 	@chmod a+x poker
 	@echo "#!/usr/bin/env bash \n" > poker
 	@echo "while [ 1 ]; do ./.a.out && break; done" >> poker
-	@echo ./poker
-	@while [ 1 ]; do ./.a.out && break; done
 
