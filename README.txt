@@ -5,12 +5,6 @@
  | |  | (_) |   <  __/ |  | \__ \ | | |
  |_|   \___/|_|\_\___|_|  |_|___/_| |_|
                                        
-
-CTRL + F (or whatever search is in your editor)"__bot__" to jump to the assigned part of the README
-	-Although reading how to play might be helpful 
-
-HEY! "make" runs the program as well as compiling, same as running the executable. So just 
-make, and you're good to go.  
                                        
 Pokerish is a Poker-like game, where the user and the dealer are given 5 cards a piece.
 From there, both players are allowed to remove up to 3 cards if they'd like from their 
@@ -193,8 +187,6 @@ _
 
 Probability Calculations:
 
-__bot__
-
 Probabilities are calculated on a card by card basis. Using a combination of the probabilities of 
 getting x cards with y suits or z faces, we are then able to get the overall probabilities of 
 getting a certain hand. 
@@ -282,24 +274,46 @@ one pair -> one pair 	W
 two pairs -> two pairs	L
 one pair -> one pair 	W
 one pair -> one pair 	L
-toc -> toc				W
+toc -> toc		W
 one pair -> two pairs	W
 one pair -> one pair 	W
 one pair -> two pairs	W
-singles -> singles		L
+singles -> singles	L
 one pair -> one pair 	L
-singles -> toc			W
+singles -> toc		W
 one pair -> one pair 	L
 two pairs -> two pairs	W
 one pair -> one pair 	W
-singles -> singles 		L
-one pair -> toc			W
+singles -> singles 	L
+one pair -> toc		W
 two pairs -> two pairs 	W
 singles -> two pairs 	W
-singles -> singles 		L
-toc -> foc 				W
+singles -> singles 	L
+toc -> foc 		W
 
 toc = three of a kind
 foc = four of a kind
 
 For the full log of hands, see battle full_battle_log.txt
+
+
+    ____                 ______                                          __    
+   / __ \__  ______     / ____/___  ____ ___  ____ ___  ____ _____  ____/ /____
+  / /_/ / / / / __ \   / /   / __ \/ __ `__ \/ __ `__ \/ __ `/ __ \/ __  / ___/
+ / _, _/ /_/ / / / /  / /___/ /_/ / / / / / / / / / / / /_/ / / / / /_/ (__  ) 
+/_/ |_|\__,_/_/ /_/   \____/\____/_/ /_/ /_/_/ /_/ /_/\__,_/_/ /_/\__,_/____/  
+                                                                               
+Compile the program using the included makefile with a quick:
+```
+make
+```
+
+The makefile does more than compile the code though, it also autogenerates a shell script that allows the program to silently restart if anything fails, called poker. This short script is necessary to get full functionality out of the program, and as such, the executable itself is hidden upon compilation.
+
+To run the program, use
+
+```
+./poker
+```
+
+If you're feeling adventurous, or just want to mess around, you can run the executable, rather than the shell script. Just know your experience may not be perfect. 
