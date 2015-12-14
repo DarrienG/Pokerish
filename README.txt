@@ -308,7 +308,10 @@ Compile the program using the included makefile with a quick:
 make
 
 
-The makefile does more than compile the code though, it also autogenerates a shell script that allows the program to silently restart if anything fails, called poker. This short script is necessary to get full functionality out of the program, and as such, the executable itself is hidden upon compilation.
+The makefile does more than compile the code though, it also autogenerates a shell script that 
+allows the program to silently restart if anything fails, called poker. This short script is 
+necessary to get full functionality out of the program, and as such, the executable itself is 
+hidden upon compilation.
 
 To run the program, use
 
@@ -316,4 +319,5 @@ To run the program, use
 ./poker
 
 
-If you're feeling adventurous, or just want to mess around, you can run the executable, rather than the shell script. Just know your experience may not be perfect. 
+If you're feeling adventurous, or just want to mess around, you can run the executable, rather 
+than the shell script. Just know your experience may not be perfect. 
